@@ -1,4 +1,4 @@
-# Converts text to speech in different languages
+# Converts text to speech in different languages. Requires pip3 install gTTS
 from gtts import gTTS
 import os
 
