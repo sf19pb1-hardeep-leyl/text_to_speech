@@ -70,5 +70,5 @@ myobj = gTTS(text=mytext, lang=language, slow=True)
 # Saving the converted audio in a mp3 file named texty
 myobj.save("texty.mp3")
 
-# Playing the converted file
+# Playing the converted file.  It does create the file but doesnt play.  It also doesn't translate, just says it in a different accent!
 os.system("mpg321 texty.mp3")
