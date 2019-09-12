@@ -60,7 +60,7 @@ Yiddish         yi
 """
 
 print("We're going to translate anything you type into another language")
-mytext = input("Please enter some text in English: "
+mytext = input("Please enter some text in English: ")
 print(language_code)
 language = input("Please select the language code: ")
 
