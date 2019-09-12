@@ -60,7 +60,7 @@ Yiddish         yi
 """
 
 print("We're going to speak anything you type in a different accent")
-mytext = input("Please enter some text in English: ")
+mytext = input("Please enter some text: ")
 print(language_code)
 language = input("Please select the accent: ")
 
@@ -71,5 +71,5 @@ myobj = gTTS(text=mytext, lang=language, slow=True)
 myobj.save("texty.mp3")
 
 # It does create the file but doesnt play. 
-# Also, I wanted it to actually translete to a different language, but all it does is say it in a different accent!
+# Also, I wanted it to actually translate to a different language, but all it does is say it in a different accent!
 os.system("mpg321 texty.mp3")
